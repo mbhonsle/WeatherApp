@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="13sp"
+        android:alpha="1"
+        android:paddingTop="40sp">
+
+        <EditText
+            android:id="@+id/latText"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_gravity="start"
+            android:layout_row="5"
+            android:alpha="1"
+            android:ems="40"
+            android:hint="@string/lat_hint"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/longText"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="1"
+            android:layout_gravity="end"
+            android:layout_row="5"
+            android:alpha="1"
+            android:ems="40"
+            android:hint="@string/long_hint"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/constant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:layout_columnSpan="2"
+            android:alpha="1"
+            android:ems="40"
+            android:text="@string/or" />
+
+        <EditText
+            android:id="@+id/cityNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="7"
+            android:alpha="1"
+            android:ems="40"
+            android:hint="@string/city_name_hint"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_columnSpan="2"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="8"
+            android:alpha="1"
+            android:onClick="getWeather"
+            android:text="@string/button_text" />
+
+        <TextView
+            android:id="@+id/resultView"
+            android:layout_width="match_parent"
+            android:layout_height="282dp"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="9"
+            android:alpha="1" />
+    </GridLayout>
+</android.widget.RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="city_name_hint">City Name</string>
+    <string name="lat_hint">Latitude</string>
+    <string name="long_hint">Longitude</string>
+    <string name="button_text">Get Weather</string>
+    <string name="or">- OR -</string>
+</resources>
