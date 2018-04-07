@@ -35,7 +35,7 @@ public class WeatherUtil {
     private static String CLOUDS_ALL_CONSTANT = "all";
     private static final String WEATHER_URL_CITY_NAME = "http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric";
     private static final String WEATHER_URL_COORDINATES = "http://api.openweathermap.org/data/2.5/weather?lat={0}&lon={1}&appid={2}&units=metric";
-    private static final String API_KEY = "c96dc6ff608ab280df22d32b9092f93a";
+    private static final String API_KEY = "<API-KEY>";
     private static final String ERR_MSG = "WEATHER DATA FETCH ERROR";
 
     private String summary = "";
